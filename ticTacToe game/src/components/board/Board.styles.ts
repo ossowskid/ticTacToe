@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+//TODO: Change background color
 export const Wrapper = styled.div`
   width: 601px;
   height: 601px;
@@ -11,7 +12,7 @@ export const Netting = styled.div`
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 200px 200px 200px;
   grid-gap: 1px;
-  border-radius: 25px;
+  background-color: #000;
 `;
 
 export const Button = styled.button`
